@@ -202,8 +202,27 @@
                     <div class="col-md-12 col-xs-12 text-center">
                         <p class="opciones access"><span class="numero">Public</span>API access</p> 
                         <div>
-                            <button class="btn btn-lg btn-mio text-center">Donate</button>
+                            <button class="btn btn-lg btn-mio text-center" data-toggle="modal" data-target="#myModalDos">Donate</button>
                         </div>
+
+                        <!-- Modal -->
+                    <div id="myModalDos" class="modal fade" role="dialog">
+                      <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Tu donación se realizó con éxito</h4>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default btn-mio" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+
                     </div>      
                 </div><!-- Cierra el primer col -->
 
@@ -226,7 +245,7 @@
                     <div class="col-md-12 col-xs-12 text-center">
                         <p class="opciones access"><span class="numero">Public</span>API access</p> 
                         <div>
-                            <button class="btn btn-lg btn-mio text-center">Donate</button>
+                            <button class="btn btn-lg btn-mio text-center" data-toggle="modal" data-target="#myModalDos">Donate</button>
                         </div>
                     </div>
                 </div><!-- Cierra el segundo col -->
@@ -250,8 +269,15 @@
                     <div class="col-md-12 col-xs-12 text-center">
                         <p class="opciones access"><span class="numero">Public</span>API access</p> 
                         <div>
-                            <button class="btn btn-lg btn-mio text-center">Donate</button>
+                            <button class="btn btn-lg btn-mio text-center" data-toggle="collapse" data-target="#demo">Donate</button>
                         </div>
+
+                        <div id="demo" class="collapse btn-mio">
+                           Por el momento no podemos realizar su solicitud
+                          </div>
+                        </div>
+
+
                     </div> 
                 </div><!-- Cierra el tercer col -->
             </div><!-- Cierra el row --> 
