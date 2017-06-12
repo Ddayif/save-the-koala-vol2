@@ -1,0 +1,237 @@
+/*
+wood brown: A89F68;
+army green: 41521F;
+*/
+
+
+
+#bienvenida{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/portada.jpg); 
+}
+
+
+.navbar-default{
+	background-color: transparent;
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-bottom: 217px;
+}
+
+p, h1{
+	color: whitesmoke;
+}
+
+p{
+	font-size: 19px;
+}
+.sep {
+    margin-right: 202px;
+    height: 55vh;
+}
+
+.btn-mio{
+	background-color: #41521F;
+	color: whitesmoke;
+}
+
+
+/***********Comienza la segunda seccion***********/
+
+img{
+	width: 100%;
+}
+
+#foundation{
+	margin-top: 30px; 
+}
+
+.title{
+	color: #A89F68;
+	font-size: 25px;
+	font-weight: bolder;
+}
+
+.parrafos{
+	color: #7e7373;
+	font-size: 13px;
+	font-weight: bolder;
+}
+
+.seccion-derecha{/**/
+	padding: 210px 0;
+
+}
+
+
+
+/************Comienza la tercera seccion************/
+#seccion-tres{
+	background-color: #A89F68;
+	padding-top: 150px;
+	padding-bottom: 70px;
+}
+
+.help{
+	font-weight: bolder;
+	color: whitesmoke;
+	font-size: 13px;
+}
+
+.title-dos{
+	font-weight: bolder;
+	color: #41521F;
+	font-size: 25px;
+}
+
+.cosita{
+	border: 10px solid white;
+}
+
+/************Comienza la cuarta seccion***************/
+
+#seccion-cuatro{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-image: url(../img/all.jpg);
+	padding-top: 80px;
+	height: 900px;
+}
+
+.frase{
+	display: block;
+}
+
+h6{
+	color: whitesmoke;
+	font-size: 15px;
+}
+
+
+/***********Comienza la quinta seccion************/
+
+.parrafos-quinta-seccion{
+	color: #7e7373;
+	font-size: 13px;
+	padding-top: 29px;
+	font-weight: bolder;
+	padding-bottom: 100px
+
+}
+
+.title-cuatro{
+	padding-top: 62px;
+	color: #A89F68;
+	font-weight: bolder;
+	font-size: 23px;
+	padding-bottom: 62px;
+}
+
+.fa-3x {
+    font-size: 6em;
+    color: #A89F68;
+
+}
+
+/************Comienza la sexta seccion***************/
+
+#seccion-seis{
+	background-color: #A89F68;
+
+}
+
+.title-cinco{
+	color: #41521F; 
+	font-size: 27px;
+    padding: 66px;
+    font-weight: bolder;
+}
+
+.fa-usd{
+	color: whitesmoke;
+	font-size: 20px;
+	    padding: 0px 75px;
+}
+
+h1{
+	padding: 0px 16px;
+}
+
+.donaciones{
+	font-size: 105px;
+}
+
+.moneda{
+	font-size: 20px;
+	    margin-top: -31px;
+}
+
+.tipos-donaciones{
+	color: #372E2E;
+	font-size: 15px;
+	font-weight: bolder;
+	padding-left: 115px;
+}
+
+.opciones{
+	color: #463C3C;
+	font-size: 13px;
+	border-bottom: 1px solid whitesmoke;
+	padding: 10px;
+	font-weight: bolder;
+}
+
+.access{
+	border: none;
+}
+
+.precios{
+	padding-bottom: 40px;
+}
+
+.numero{
+	color: #322C2C;
+	font-weight: bolder;
+}
+
+/************Comienza el footer**************/
+footer{
+	background-color: #41521F;
+}
+
+/*titulo about*/
+.about{
+	padding-top: 80px;
+	font-size: 15px;
+	color: #A89F68;
+	font-weight: bolder;
+}
+
+/*parrafo de about*/
+.parrafo-footer{
+	padding-bottom: 50px;
+	font-size: 15px;
+
+}
+
+.lista{
+	padding-top: 100px;
+	font-weight: bolder;
+	list-style: none;
+}
+
+a{
+	color: #A89F68;
+}
+
+.correo{
+	color: #A89F68;
+}
